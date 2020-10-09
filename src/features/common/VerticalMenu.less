@@ -1,5 +1,95 @@
+
 @import '../../styles/mixins';
 
 .common-vertical-menu {
+    .MuiToolbar-regular {
+        height: 100%;
+        min-height: 56px;
+    }
+    .language-button{
+        padding: 1px;
+    }
+    header{
+        background-color: black;
+        opacity: 0.9;
+    }
+    .hamburguer-button {
+        height: 39px;
+    }
+    .MuiButtonBase-root{
+        // position: absolute;
+        // right: 10px;
+        // top: 9px;
+        flex:1;
+    }
 
+    .MuiPaper-root{
+        height: 80px;
+        // width: calc(100% - 14px);
+    }
+    .MuiAppBar-positionFixed{
+        // right:auto;
+    }
+
+    .ui.dimmer>.content{
+        width:100%;
+    }
+    .common-language-drop-down{
+        margin-right: 10px;
+        display: contents;
+        flex: 1;
+        text-align: center;
+        // height: 50px;
+        // position: absolute;
+        // right: 130px;
+        // top: 30px;
+    }
+    .language-button{
+        height: 15px;
+        width: 15px;
+        // margin-right: 10px;
+    }
+    .app-bar-buttons{
+        height: 60px;
+        position: absolute;
+        right: 0px;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+
+    .ui.dropdown .menu>.item>.image, .ui.dropdown .menu>.item>img{
+        height: 17px;
+        margin-right: 5px;
+        margin-left: -10px;
+    }
 }
+
+
+.ui.dimmer>.content{
+    position:relative;
+    width:50%;
+    .vertical-menu{
+        font-size: 25px;
+        width:60%; 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+      
+        a{
+            color:coral;
+        }
+        .item:last-child{
+            a{
+                color:rgb(111, 111, 223);
+            }
+           
+        }
+       
+    }
+}
+
+
