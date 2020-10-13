@@ -9,7 +9,7 @@ const TILEDATA = {
         // Novedades carrousel ??
         {
             imgUrl: RANDOM_IMG,
-            description: 'home.galleryTile.description',
+            description: 'Novedades...',
             title: 'Novedades',
             size: 'half',
             reveal: false,
@@ -18,8 +18,8 @@ const TILEDATA = {
         //   Proyecto 
         {
             imgUrl: RANDOM_IMG,
-            description: 'Proyecto',
-            title: 'home.galleryTile.title',
+            description: 'Nuestro Proyecto...',
+            title: 'Proyecto',
             size: 'half',
             reveal: false,
             revealText: 'Sobre el proyecto. Los valores de la empresa son los de la preservación y conservación de la fauna salvaje y de la naturaleza. Además de incentivar la integración social en ámbitos faunísticos, la integración de la naturaleza y la fauna en la vida cotidiana y su importancia. Juntamente con la creación de una concienciación colectiva y un aumento de la educación sobre el medioambiente y la fauna salvaje. El proyecto se basa en la creación de un centro multifunción e integrador con la naturaleza, en el que una parte importante será como Centro de recuperación de la fauna salvaje y otra como centro de ecoturismo y educación ambiental. Dicho centro será un centro inclusivo con la gente con diversidad funcional, es decir el centro empleará a gente con diversidad funcional para que trabajen en el centro y a su vez se realizaran talleres, cursos, visitas etc… para la que la gente con diversidad funcional pueda sentirse más integrada con la naturaleza y de los beneficios que esta supone.'
@@ -38,7 +38,7 @@ const TILEDATA = {
         {
             imgUrl: RANDOM_IMG,
             description: 'Nuestras Actividades...',
-            title: 'home.welcomeTile.title',
+            title: 'Control',
             size: 'half',
             reveal: true,
             revealText: 'Nuestra organización. En nuestra organización contamos personal cualificado y con voluntarios que trabajan sin descanso para alcanzar y superar las metas que tenemos establecidas en referencia a la conservación de la naturaleza y la inclusión social. Nos enfocamos en actividades de educación ambiental, visitas al centro de recuperación de fauna, talleres y actividades de naturaleza para la gente con diversidad funcional.Si desea saber más acerca de nuestras actividades, eventos o campañas, no dude en contactarnos a través del formulario que encontrará a continuación.',
