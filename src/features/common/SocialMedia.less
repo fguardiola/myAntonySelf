@@ -1,5 +1,87 @@
 @import '../../styles/mixins';
 
-.common-social-media {
+.common-social-media { 
+    height: 100%;
+    .grid, .row{
+        height:auto;
+    }
+    // .instagram a{
+    //     color:white;
+    // }
+    // .instagram a:hover{
+    //     color:black;
+    // }
+    .instagram{
+        background-color: rgb(192, 111, 17);
+        height: @tile-height;
+        padding: 10px;
+        transition: 0.3s;
+    }
+    .instagram:hover{
+        background-color: white;
+        color: black;
+     
+    }
+    .instagram > a{
+        color:white;
+    }
+    .instagram:hover > a
+    {
+        color:black;
+    }    
+   
+    .facebook{
+        background-color: white;
+        height: @tile-height;
+        padding:10px;
+        transition: 0.3s;
+    }
+    .facebook:hover{
+        background-color: black;
+       
+    }
+    .facebook > a{
+        color:black;
+    }
+    .facebook:hover > a{
+        color: white;
+    }
+   
+    .social-media-link {
+        height:100%;
+        font-size: 40px;
+        line-height: 40px;
+        // color:aliceblue;
+        text-decoration:none;
+        background-color: transparent;
+        opacity: 1;
+    }
+    b{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+}
 
+.common-social-media.ui.grid {
+    margin: 0;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .common-social-media{
+        .instagram{
+            height:@small-tile-height;
+        }
+        .facebook{
+            height:@small-tile-height;
+        }
+        .social-media-link {
+            font-size: 30px;
+            line-height: 30px;
+        }
+    }
+   
 }

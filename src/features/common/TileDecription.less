@@ -3,3 +3,77 @@
 .common-tile-decription {
 
 }
+
+
+.example-enter {
+    opacity: 0.01;
+  }
+  
+  .example-enter.example-enter-active {
+    opacity: 0.6;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .example-leave {
+    opacity: 0.6;
+  }
+  
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+  }
+
+.tile-description{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+
+}
+.center-in-parent {
+    color: aliceblue;
+    background-color: #555;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+   
+  }
+  .center-in-parent:hover{
+      transition: 1s;
+  }
+  
+  .tile-info {
+    text-align: center;
+  }
+  
+  .tile-title{
+      font-size: 70px;
+      line-height: 70px;
+  }
+
+  p.tile-info{
+    padding-bottom: 10px;
+  }
+  .tile-reveal{
+    font-size: 30px;
+    padding: 10px;
+    opacity: 0.9;
+
+  }
+//   Mobile specifics 
+ 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    .tile-title{
+        font-size: 30px;
+    }
+    .tile-reveal{
+      font-size: 20px;
+  
+    }
+} 

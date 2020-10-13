@@ -3,3 +3,47 @@
 .common-tile {
 
 }
+
+
+.tile-style {
+    position: relative;
+    width: 100%;
+    height: @tile-height;
+    // height: auto;
+    // background-color: #2ec2b0;
+  }
+
+.tile-style.link:hover{
+    opacity: 0.9;
+}
+
+.tile-style:hover{
+    opacity: 0.9;
+}
+  
+.tile-image {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+}
+  
+.placeholder{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    border: 1px solid #706c61;
+}
+
+.ui.placeholder{
+    max-width: 100%;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .tile-style {
+        height: @small-tile-height
+    }
+}

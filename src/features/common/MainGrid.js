@@ -57,7 +57,7 @@ export default class MainGrid extends Component {
         </Grid.Row>
         <Grid.Row>
           <Grid.Column width={16}>
-            {/* Granada & albaicin  */}
+            {/* Section  */}
             <Tile
               key={5}
               reveal={data[4].reveal}
