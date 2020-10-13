@@ -6,3 +6,4 @@ export { default as TileDecription } from './TileDecription';
 export { default as SocialMedia } from './SocialMedia';
 export { default as ImagePlaceholder } from './ImagePlaceholder';
 export { default as Placeholder } from './Placeholder';
+export { default as Footer } from './Footer';
