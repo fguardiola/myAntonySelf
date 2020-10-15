@@ -5,7 +5,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import { Link } from 'react-router-dom';
-// import Logo from './Logo';
+import Logo from './Logo';
 import PropTypes from 'prop-types';
 
 
@@ -29,7 +29,7 @@ class VerticalMenu extends Component {
       <div className="common-vertical-menu">
         <AppBar position="fixed" color="primary">
           <Toolbar>
-            {/* <Logo /> */}
+            <Logo />
             {/* <div className='app-bar-buttons'>
              
               <IconButton

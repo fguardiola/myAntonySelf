@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import VerticalMenu from '../common/VerticalMenu';
+import Footer from '../common/Footer';
 
 
 /*
@@ -22,6 +23,7 @@ export default class App extends Component {
       <div className="home-app">
         <VerticalMenu />
         <div className="page-container">{this.props.children}</div>
+        <Footer />
       </div>
     );
   }

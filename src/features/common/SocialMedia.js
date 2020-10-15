@@ -12,7 +12,7 @@ class SocialMedia extends Component {
           <Grid.Column className="instagram" largeScreen={8} mobile={8} tablet={8}>
             <a
               className="social-media-link center-in-parent "
-              href="https://www.instagram.com/"
+              href="https://instagram.com/wildcaressp?igshid=1c9u54xp38k2h"
             >
               <b class="">Instagram</b>
             </a>
@@ -20,9 +20,9 @@ class SocialMedia extends Component {
           <Grid.Column className="facebook" largeScreen={8} mobile={8} tablet={8}>
             <a
               className="social-media-link center-in-parent "
-              href="https://www.facebook.com/"
+              href="https://youtube.com/channel/UCc0K2GtYEFZAFLbPqgzgwcw"
             >
-              <b class=""> Facebook </b>
+              <b class=""> Youtube </b>
             </a>
 
           </Grid.Column>
