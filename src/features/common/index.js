@@ -8,3 +8,4 @@ export { default as ImagePlaceholder } from './ImagePlaceholder';
 export { default as Placeholder } from './Placeholder';
 export { default as Footer } from './Footer';
 export { default as Logo } from './Logo';
+export { default as TileDimmer } from './TileDimmer';

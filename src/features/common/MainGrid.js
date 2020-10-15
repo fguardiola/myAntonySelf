@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { Grid, Image, Segment, GridColumn } from 'semantic-ui-react';
 import tileData from '../../common/tileData';
-import Tile from './Tile';
+// import Tile from './Tile';
+import TileDimmer from './TileDimmer';
+
+
 import SocialMedia from './SocialMedia';
 
 import PropTypes from 'prop-types';
@@ -18,7 +21,7 @@ export default class MainGrid extends Component {
         <Grid.Row stretched>
           <Grid.Column largeScreen={16} mobile={16} tablet={16}>
             {/* Welcome tile */}
-            <Tile
+            <TileDimmer
               key={1}
               reveal={data[0].reveal}
               revealText={data[0].revealText}
@@ -32,8 +35,8 @@ export default class MainGrid extends Component {
         <Grid.Row>
           {/* Proyecto */}
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
-            <Tile
-              key={1}
+            <TileDimmer
+              key={2}
               reveal={data[1].reveal}
               revealText={data[1].revealText}
               link={true}
@@ -45,8 +48,8 @@ export default class MainGrid extends Component {
           </Grid.Column>
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
             {/* Actividades */}
-            <Tile
-              key={4}
+            <TileDimmer
+              key={3}
               reveal={data[2].reveal}
               link={true}
               to="/rooms-facilities"
@@ -59,8 +62,8 @@ export default class MainGrid extends Component {
         <Grid.Row>
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
             {/* Control  */}
-            <Tile
-              key={5}
+            <TileDimmer
+              key={4}
               reveal={data[3].reveal}
               revealText={data[3].revealText}
               link={true}
@@ -78,9 +81,9 @@ export default class MainGrid extends Component {
         {/* Donativos */}
         <Grid.Row stretched>
           <Grid.Column largeScreen={16} mobile={16} tablet={16}>
-            {/* Welcome tile */}
-            <Tile
-              key={1}
+            {/* Welcome tileDimmer */}
+            <TileDimmer
+              key={5}
               reveal={data[4].reveal}
               revealText={data[4].revealText}
               link={false}
