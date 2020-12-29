@@ -99,6 +99,51 @@ export default class MainGrid extends Component {
             />
           </Grid.Column>
         </Grid.Row>
+        <Grid.Row>
+          {/* Partners */}
+          <Grid.Column largeScreen={8} mobile={16} tablet={16}>
+            <TileDimmer
+              icon='tree'
+              key={6}
+              reveal={data[5].reveal}
+              revealText={data[5].revealText}
+              link={true}
+              to='/partners'
+              imgUrl={data[5].imgUrl}
+              title={data[5].title}
+              description={data[5].description}
+            />
+          </Grid.Column>
+          <Grid.Column largeScreen={8} mobile={16} tablet={16}>
+            {/* Blog */}
+            <TileDimmer
+              icon='tree'
+              key={7}
+              reveal={data[6].reveal}
+              revealText={data[6].revealText}
+              link={true}
+              to="/blog"
+              imgUrl={data[6].imgUrl}
+              title={data[6].title}
+              description={data[6].description}
+            />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row stretched>
+          <Grid.Column largeScreen={16} mobile={16} tablet={16}>
+            {/* Contact Us */}
+            <TileDimmer
+              icon='paw'
+              key={8}
+              reveal={data[7].reveal}
+              revealText={data[7].revealText}
+              link={true}
+              imgUrl={data[7].imgUrl}
+              title={data[7].title}
+              description={data[7].description}
+            />
+          </Grid.Column>
+        </Grid.Row>
       </Grid>
     );
   }
