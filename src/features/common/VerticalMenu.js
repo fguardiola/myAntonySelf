@@ -7,6 +7,8 @@ import IconButton from '@material-ui/core/IconButton';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
 import PropTypes from 'prop-types';
+import { VERTICAL_MENU_PATHS, VERTICAL_MENU_TEXTS } from '../../common/constants';
+
 
 
 //import { VERTICAL_MENU_PATHS } from '../../common/constants';
@@ -30,8 +32,8 @@ class VerticalMenu extends Component {
         <AppBar position="fixed" color="primary">
           <Toolbar>
             <Logo />
-            {/* <div className='app-bar-buttons'>
-             
+            <div className='app-bar-buttons'>
+
               <IconButton
                 edge="start"
                 color="inherit"
@@ -46,25 +48,20 @@ class VerticalMenu extends Component {
                   onClick={this.handleOpen}
                 />
               </IconButton>
-            </div> */}
+            </div>
 
           </Toolbar>
         </AppBar>
 
-        {/* <Dimmer active={active} onClickOutside={this.handleClose} page>
+        <Dimmer active={active} onClickOutside={this.handleClose} page>
           <Menu className="vertical-menu" vertical>
-            {menuTexts.map((item, index) => (
+            {VERTICAL_MENU_TEXTS.map((item, index) => (
               <Menu.Item>
-                {
-                  item === navigateText && <a href="http://maps.google.com/?q=oripando hostel granada">{item}</a>
-                }
-                {
-                  item !== navigateText && <Link onClick={this.handleClose} to={VERTICAL_MENU_PATHS[index]}>{item}</Link>
-                }
+                <Link onClick={this.handleClose} to={VERTICAL_MENU_PATHS[index]}>{item}</Link>
               </Menu.Item>
             ))}
           </Menu>
-        </Dimmer> */}
+        </Dimmer>
       </div>
     );
   }
