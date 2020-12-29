@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import placeholder from '../../images/placeholder.png'
+import placeholder from '../../images/logo.png'
 
 export default class Placeholder extends Component {
   static propTypes = {

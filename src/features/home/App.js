@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import VerticalMenu from '../common/VerticalMenu';
 import Footer from '../common/Footer';
+import PhoneButton from '../common/PhoneButton';
+import WhatsAppButton from '../common/WhatsAppButton';
 
 
 /*
@@ -23,6 +25,8 @@ export default class App extends Component {
       <div className="home-app">
         <VerticalMenu />
         <div className="page-container">{this.props.children}</div>
+        <PhoneButton />
+        <WhatsAppButton />
         <Footer />
       </div>
     );

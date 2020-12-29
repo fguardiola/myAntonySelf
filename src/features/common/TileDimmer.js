@@ -77,18 +77,23 @@ class TileDimmer extends Component {
             description={this.props.description}
           />
         </div>
-        <Dimmer active={active} onClickOutside={this.handleClose} page>
-          <Header as='h2' icon inverted>
-            <Icon name='heart' />
-            {this.props.title}
-            <Header.Subheader>{this.props.revealText}</Header.Subheader>
-          </Header>
-          <Button
+        <Dimmer className="dimmer-content" blurring active={active} onClickOutside={this.handleClose} page>
+          <div >
+            <Header as='h2' icon inverted>
+              <Icon name={this.props.icon} />
+              {this.props.title}
+              <Header.Subheader>
+                {this.props.revealText}
+              </Header.Subheader>
+            </Header>
+            {/* <Button
             content='Show'
             icon='plus'
             labelPosition='left'
             onClick={this.handleClose}
-          />
+          /> */}
+          </div>
+
         </Dimmer>
       </div>
     );

@@ -8,7 +8,7 @@ const TILEDATA = {
     home: [
         // Novedades carrousel ??
         {
-            imgUrl: RANDOM_IMG,
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/fotoportadawildcares.jpeg?alt=media&token=c1cf832f-1956-4edb-b3da-843839824624',
             description: 'Novedades...',
             title: 'Novedades',
             size: 'half',
@@ -17,7 +17,7 @@ const TILEDATA = {
         },
         //   Proyecto 
         {
-            imgUrl: RANDOM_IMG,
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/Eagle.jpg?alt=media&token=b3d67d83-43e4-402d-a98a-9e3fe7083335',
             description: 'Nuestro Proyecto...',
             title: 'Proyecto',
             size: 'half',
@@ -26,65 +26,63 @@ const TILEDATA = {
         },
         // Actividades 
         {
-            imgUrl: RANDOM_IMG,
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/Naturaleza%20para%20todos.jpg?alt=media&token=532e9c7d-bcd4-47ad-a5ae-9e146ffee0a8',
             description: 'Nuestras actividades...',
             title: 'Actividades',
             size: 'half',
-            reveal: true,
-            revealText: 'texto de actividades Actividades. Centro de recuperación de fauna: Visitas y liberaciones. Actividades de Educación ambiental: Talleres, charlas y actividades de educación ambiental.Acercando la naturaleza: Actividades de educación ambiental y naturaleza adaptadas para la gente con diversidad funcional.Ecoturismo: Rutas de observación de fauna y flora,seguimiento de rastros, etc… El objetivo es que el turista aprenda, mediante la observación de los ecosistemas, a apreciar la naturaleza que le rodea y las culturas tradicionales de dicha zona natural.'
+            reveal: false,
+            revealText: 'Actividades. Centro de recuperación de fauna: Visitas y liberaciones. Actividades de Educación ambiental: Talleres, charlas y actividades de educación ambiental.Acercando la naturaleza: Actividades de educación ambiental y naturaleza adaptadas para la gente con diversidad funcional.Ecoturismo: Rutas de observación de fauna y flora,seguimiento de rastros, etc… El objetivo es que el turista aprenda, mediante la observación de los ecosistemas, a apreciar la naturaleza que le rodea y las culturas tradicionales de dicha zona natural.'
 
         },
         //   Organizacion 
         {
-            imgUrl: RANDOM_IMG,
-            description: 'Nuestras Actividades...',
-            title: 'Control',
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/DSCN2009.JPG?alt=media&token=0cd7cf64-ca9d-40d6-be27-f4f12e3f0399',
+            description: 'Nuestras Equipo...',
+            title: 'Nuestro Equipo',
             size: 'half',
-            reveal: true,
+            reveal: false,
             revealText: 'Nuestra organización. En nuestra organización contamos personal cualificado y con voluntarios que trabajan sin descanso para alcanzar y superar las metas que tenemos establecidas en referencia a la conservación de la naturaleza y la inclusión social. Nos enfocamos en actividades de educación ambiental, visitas al centro de recuperación de fauna, talleres y actividades de naturaleza para la gente con diversidad funcional.Si desea saber más acerca de nuestras actividades, eventos o campañas, no dude en contactarnos a través del formulario que encontrará a continuación.',
         },
         //  Donaciones 
         {
-            imgUrl: RANDOM_IMG,
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/wdcares.jpg?alt=media&token=04ddc566-f273-413d-8dc2-f982462089b4',
             description: 'Tipo de donaciones',
             title: 'Colabora',
             size: 'half',
             reveal: false,
-            revealText: 'Colabora'
+            revealText: ` -	Donaciones:
+            Tipo de donaciones
+            -	• Donación Mensual (5,10,50 € y otra cantidad)
+            -	• Donación Trimestral (10, 30, 60€, y otra cantidad)
+            -	• Donación Anual (30, 60, 100€ y otra cantidad)
+            -	Socios: 
+                Tipos de Socios
+            -	• Máster: Es el rango máximo de Socio. Se adquiere con las donaciones mensuales
+            -	de 50€ u otra cantidad superior, y las Trimestrales y Anuales de otras cantidades
+            -	superiores a 60€ trimestrales y 100€ Anuales.
+            -	• Diamond: Se adquiere con las donaciones mensuales de 10€, las trimestrales de
+            -	50€ y las anuales de 100€.
+            -	• Platinum: Se adquiere con las donaciones mensuales de 5€, trimestrales de 30€
+            -	y anuales de 60€.
+            -	• Gold: Se adquiere solo con las donaciones trimestrales de 10€ y las anuales de
+            -	30€.
+            -	• Básico: Se adquiere solo con la donación anual de 25€.
+            -	• Socio Joven/Desempleado: Se adquiere con una Donación anual de 15€ y la
+            -	justificación de ser menor de 25 años u estar desempleado.
 
-            // -	Donaciones:
-            // Tipo de donaciones
-            // -	• Donación Mensual (5,10,50 € y otra cantidad)
-            // -	• Donación Trimestral (10, 30, 60€, y otra cantidad)
-            // -	• Donación Anual (30, 60, 100€ y otra cantidad)
-            // -	Socios: 
-            //     Tipos de Socios
-            // -	• Máster: Es el rango máximo de Socio. Se adquiere con las donaciones mensuales
-            // -	de 50€ u otra cantidad superior, y las Trimestrales y Anuales de otras cantidades
-            // -	superiores a 60€ trimestrales y 100€ Anuales.
-            // -	• Diamond: Se adquiere con las donaciones mensuales de 10€, las trimestrales de
-            // -	50€ y las anuales de 100€.
-            // -	• Platinum: Se adquiere con las donaciones mensuales de 5€, trimestrales de 30€
-            // -	y anuales de 60€.
-            // -	• Gold: Se adquiere solo con las donaciones trimestrales de 10€ y las anuales de
-            // -	30€.
-            // -	• Básico: Se adquiere solo con la donación anual de 25€.
-            // -	• Socio Joven/Desempleado: Se adquiere con una Donación anual de 15€ y la
-            // -	justificación de ser menor de 25 años u estar desempleado.
+            Beneficios Socios
+            -	• Máster: Beneficio del socio básico + Derecho a asistir a todas las liberaciones y
+            -	posibilidad de liberar dos aves al año +Una visita gratis al centro + participación
+            -	gratuita a un taller a elección de la organización.
+            -	• Diamond: Beneficio del socio básico + Derecho a asistir a todas las liberaciones y
+            -	posibilidad de liberar a un ave.
+            -	• Platinum: Beneficio del socio básico + Derecho a asistir a todas las liberaciones y una visita gratis al centro.
+            -	• Gold: Beneficio del socio básico +derecho a asistir a tres liberaciones.
+            -	• Básico: Obtención de la revista anual de la fundación e información detallada sobre algunas actividades e individuos.
+            -	• Joven/Desempleado: Se obtienen las mismas recompensas que el socio Gold.
+            -	Apadrina:  Por X€ (Cantidad variable según la especie, pero con un mínimo de 30€) se proporcionará una carta con su historial clínico, un diploma de apadrinamiento, una ficha de la especie y fotografías, así como diverso material que se le pueda facilitar sobre la especie. En algunos casos, el padrino tiene la posibilidad de liberar al animal. En los casos que el padrino no pueda liberarlos, siempre  podrán asistir a su liberación o  en su defecto a una visita anual al centro.
 
-            // Beneficios Socios
-            // -	• Máster: Beneficio del socio básico + Derecho a asistir a todas las liberaciones y
-            // -	posibilidad de liberar dos aves al año +Una visita gratis al centro + participación
-            // -	gratuita a un taller a elección de la organización.
-            // -	• Diamond: Beneficio del socio básico + Derecho a asistir a todas las liberaciones y
-            // -	posibilidad de liberar a un ave.
-            // -	• Platinum: Beneficio del socio básico + Derecho a asistir a todas las liberaciones y una visita gratis al centro.
-            // -	• Gold: Beneficio del socio básico +derecho a asistir a tres liberaciones.
-            // -	• Básico: Obtención de la revista anual de la fundación e información detallada sobre algunas actividades e individuos.
-            // -	• Joven/Desempleado: Se obtienen las mismas recompensas que el socio Gold.
-            // -	Apadrina:  Por X€ (Cantidad variable según la especie, pero con un mínimo de 30€) se proporcionará una carta con su historial clínico, un diploma de apadrinamiento, una ficha de la especie y fotografías, así como diverso material que se le pueda facilitar sobre la especie. En algunos casos, el padrino tiene la posibilidad de liberar al animal. En los casos que el padrino no pueda liberarlos, siempre  podrán asistir a su liberación o  en su defecto a una visita anual al centro.
-
-            // -WildSupporters: 1euro/mes -> 12euros/año. Consistiría en donaciones de la gente de 1 euro al mes, renovable o con posibilidad de cancelarlo anualmente. Suponiendo una donación pequeña de voluntad a la entidad, pero de mucho valor para el centro y que permite la participación en el blog.'
+            -WildSupporters: 1euro/mes -> 12euros/año. Consistiría en donaciones de la gente de 1 euro al mes, renovable o con posibilidad de cancelarlo anualmente. Suponiendo una donación pequeña de voluntad a la entidad, pero de mucho valor para el centro y que permite la participación en el blog.`
         },
     ]
 }

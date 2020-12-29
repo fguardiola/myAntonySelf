@@ -22,10 +22,11 @@ export default class MainGrid extends Component {
           <Grid.Column largeScreen={16} mobile={16} tablet={16}>
             {/* Welcome tile */}
             <TileDimmer
+              icon='tree'
               key={1}
               reveal={data[0].reveal}
               revealText={data[0].revealText}
-              link={false}
+              link={true}
               imgUrl={data[0].imgUrl}
               title={data[0].title}
               description={data[0].description}
@@ -36,6 +37,7 @@ export default class MainGrid extends Component {
           {/* Proyecto */}
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
             <TileDimmer
+              icon='tree'
               key={2}
               reveal={data[1].reveal}
               revealText={data[1].revealText}
@@ -49,8 +51,10 @@ export default class MainGrid extends Component {
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
             {/* Actividades */}
             <TileDimmer
+              icon='tree'
               key={3}
               reveal={data[2].reveal}
+              revealText={data[2].revealText}
               link={true}
               to="/rooms-facilities"
               imgUrl={data[2].imgUrl}
@@ -63,6 +67,7 @@ export default class MainGrid extends Component {
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
             {/* Control  */}
             <TileDimmer
+              icon='tree'
               key={4}
               reveal={data[3].reveal}
               revealText={data[3].revealText}
@@ -81,12 +86,13 @@ export default class MainGrid extends Component {
         {/* Donativos */}
         <Grid.Row stretched>
           <Grid.Column largeScreen={16} mobile={16} tablet={16}>
-            {/* Welcome tileDimmer */}
+            {/* Welcome tileDimmer*/}
             <TileDimmer
+              icon='paw'
               key={5}
               reveal={data[4].reveal}
               revealText={data[4].revealText}
-              link={false}
+              link={true}
               imgUrl={data[4].imgUrl}
               title={data[4].title}
               description={data[4].description}
