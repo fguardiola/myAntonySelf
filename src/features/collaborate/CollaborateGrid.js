@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Grid } from 'semantic-ui-react';
+import CollaborateInfo from './CollaborateInfo';
+
 
 export default class CollaborateGrid extends Component {
   static propTypes = {
@@ -6,10 +9,16 @@ export default class CollaborateGrid extends Component {
   };
 
   render() {
+    // const data = tileData.collaborate;
     return (
-      <div className="collaborate-collaborate-grid">
-        Component content: collaborate/CollaborateGrid
-      </div>
+      <Grid className="page-grid collaborate-collaborate-grid" columns="equal">
+        <Grid.Row stretched className="collaborate-grid-row">
+          <Grid.Column largeScreen={16} mobile={16} tablet={16}>
+            {/* Main tile */}
+            <CollaborateInfo />
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
     );
   }
 }
