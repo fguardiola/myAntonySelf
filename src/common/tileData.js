@@ -22,7 +22,7 @@ const TILEDATA = {
             title: 'Proyecto',
             size: 'half',
             reveal: false,
-            revealText: 'Sobre el proyecto. Los valores de la empresa son los de la preservación y conservación de la fauna salvaje y de la naturaleza. Además de incentivar la integración social en ámbitos faunísticos, la integración de la naturaleza y la fauna en la vida cotidiana y su importancia. Juntamente con la creación de una concienciación colectiva y un aumento de la educación sobre el medioambiente y la fauna salvaje. El proyecto se basa en la creación de un centro multifunción e integrador con la naturaleza, en el que una parte importante será como Centro de recuperación de la fauna salvaje y otra como centro de ecoturismo y educación ambiental. Dicho centro será un centro inclusivo con la gente con diversidad funcional, es decir el centro empleará a gente con diversidad funcional para que trabajen en el centro y a su vez se realizaran talleres, cursos, visitas etc… para la que la gente con diversidad funcional pueda sentirse más integrada con la naturaleza y de los beneficios que esta supone.'
+            revealText: 'Nuestros valores están ligados directamente con el compromiso, responsabilidad y pasión por lo que hacemos. Con la misión de preservar y conservar la fauna salvaje y la naturaleza en general. Además, junto a la integración social generar un impacto positivo que repercuta en el día a día. El centro aspira a convertirse en una gran oportunidad laboral para integrar a personas con distintos grados de diversidad funcional. Si desea saber más acerca de nuestras actividades, eventos o campañas, no dude en contactarnos a través del formulario que encontrará a continuación.'
         },
         // Actividades 
         {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Image, Segment, GridColumn } from 'semantic-ui-react';
 import tileData from '../../common/tileData';
-// import Tile from './Tile';
+import Tile from './Tile';
 import TileDimmer from './TileDimmer';
 
 
@@ -36,13 +36,13 @@ export default class MainGrid extends Component {
         <Grid.Row>
           {/* Proyecto */}
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
-            <TileDimmer
+            <Tile
               icon='tree'
               key={2}
               reveal={data[1].reveal}
               revealText={data[1].revealText}
               link={true}
-              to='/pictures'
+              to='/project'
               imgUrl={data[1].imgUrl}
               title={data[1].title}
               description={data[1].description}
@@ -50,13 +50,13 @@ export default class MainGrid extends Component {
           </Grid.Column>
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
             {/* Actividades */}
-            <TileDimmer
+            <Tile
               icon='tree'
               key={3}
               reveal={data[2].reveal}
               revealText={data[2].revealText}
               link={true}
-              to="/rooms-facilities"
+              to="/activities"
               imgUrl={data[2].imgUrl}
               title={data[2].title}
               description={data[2].description}
@@ -66,13 +66,13 @@ export default class MainGrid extends Component {
         <Grid.Row>
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
             {/* Control  */}
-            <TileDimmer
+            <Tile
               icon='tree'
               key={4}
               reveal={data[3].reveal}
               revealText={data[3].revealText}
               link={true}
-              to="/granada-and-albaicin"
+              to="/our-team"
               imgUrl={data[3].imgUrl}
               title={data[3].title}
               description={data[3].description}
@@ -86,13 +86,14 @@ export default class MainGrid extends Component {
         {/* Donativos */}
         <Grid.Row stretched>
           <Grid.Column largeScreen={16} mobile={16} tablet={16}>
-            {/* Welcome tileDimmer*/}
-            <TileDimmer
+            {/* Welcome tile*/}
+            <Tile
               icon='paw'
               key={5}
               reveal={data[4].reveal}
               revealText={data[4].revealText}
               link={true}
+              to="/collaborate"
               imgUrl={data[4].imgUrl}
               title={data[4].title}
               description={data[4].description}
@@ -102,7 +103,7 @@ export default class MainGrid extends Component {
         <Grid.Row>
           {/* Partners */}
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
-            <TileDimmer
+            <Tile
               icon='tree'
               key={6}
               reveal={data[5].reveal}
@@ -116,7 +117,7 @@ export default class MainGrid extends Component {
           </Grid.Column>
           <Grid.Column largeScreen={8} mobile={16} tablet={16}>
             {/* Blog */}
-            <TileDimmer
+            <Tile
               icon='tree'
               key={7}
               reveal={data[6].reveal}
@@ -132,12 +133,13 @@ export default class MainGrid extends Component {
         <Grid.Row stretched>
           <Grid.Column largeScreen={16} mobile={16} tablet={16}>
             {/* Contact Us */}
-            <TileDimmer
+            <Tile
               icon='paw'
               key={8}
               reveal={data[7].reveal}
               revealText={data[7].revealText}
               link={true}
+              to="/contact-us"
               imgUrl={data[7].imgUrl}
               title={data[7].title}
               description={data[7].description}
