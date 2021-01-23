@@ -85,7 +85,7 @@ const TILEDATA = {
             -WildSupporters: 1euro/mes -> 12euros/año. Consistiría en donaciones de la gente de 1 euro al mes, renovable o con posibilidad de cancelarlo anualmente. Suponiendo una donación pequeña de voluntad a la entidad, pero de mucho valor para el centro y que permite la participación en el blog.`
         },
         {
-            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/Eagle.jpg?alt=media&token=b3d67d83-43e4-402d-a98a-9e3fe7083335',
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/DSCN2668.JPG?alt=media&token=c1f9409c-a82d-4c2a-a488-f93dcbd600a9',
             description: 'Nuestro Partners...',
             title: 'Partners',
             size: 'half',
@@ -93,7 +93,7 @@ const TILEDATA = {
             revealText: 'Sobre el proyecto. Los valores de la empresa son los de la preservación y conservación de la fauna salvaje y de la naturaleza. Además de incentivar la integración social en ámbitos faunísticos, la integración de la naturaleza y la fauna en la vida cotidiana y su importancia. Juntamente con la creación de una concienciación colectiva y un aumento de la educación sobre el medioambiente y la fauna salvaje. El proyecto se basa en la creación de un centro multifunción e integrador con la naturaleza, en el que una parte importante será como Centro de recuperación de la fauna salvaje y otra como centro de ecoturismo y educación ambiental. Dicho centro será un centro inclusivo con la gente con diversidad funcional, es decir el centro empleará a gente con diversidad funcional para que trabajen en el centro y a su vez se realizaran talleres, cursos, visitas etc… para la que la gente con diversidad funcional pueda sentirse más integrada con la naturaleza y de los beneficios que esta supone.'
         },
         {
-            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/Eagle.jpg?alt=media&token=b3d67d83-43e4-402d-a98a-9e3fe7083335',
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/Pardela2.jpg?alt=media&token=31ae6fc5-08dd-4144-9feb-45a0170ec3dc',
             description: 'Nuestro blog...',
             title: 'Blog',
             size: 'half',
@@ -101,13 +101,16 @@ const TILEDATA = {
             revealText: 'Sobre el proyecto. Los valores de la empresa son los de la preservación y conservación de la fauna salvaje y de la naturaleza. Además de incentivar la integración social en ámbitos faunísticos, la integración de la naturaleza y la fauna en la vida cotidiana y su importancia. Juntamente con la creación de una concienciación colectiva y un aumento de la educación sobre el medioambiente y la fauna salvaje. El proyecto se basa en la creación de un centro multifunción e integrador con la naturaleza, en el que una parte importante será como Centro de recuperación de la fauna salvaje y otra como centro de ecoturismo y educación ambiental. Dicho centro será un centro inclusivo con la gente con diversidad funcional, es decir el centro empleará a gente con diversidad funcional para que trabajen en el centro y a su vez se realizaran talleres, cursos, visitas etc… para la que la gente con diversidad funcional pueda sentirse más integrada con la naturaleza y de los beneficios que esta supone.'
         },
         {
-            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/Eagle.jpg?alt=media&token=b3d67d83-43e4-402d-a98a-9e3fe7083335',
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/myprofile-6d8d3.appspot.com/o/34811343_2477352585623525_6835618890295279616_o.jpg?alt=media&token=2cf3f163-27ac-4743-8e7a-d6f3ce478ebf',
             description: 'Contactanos',
             title: 'Contacto',
             size: 'half',
             reveal: false,
             revealText: 'Sobre el proyecto. Los valores de la empresa son los de la preservación y conservación de la fauna salvaje y de la naturaleza. Además de incentivar la integración social en ámbitos faunísticos, la integración de la naturaleza y la fauna en la vida cotidiana y su importancia. Juntamente con la creación de una concienciación colectiva y un aumento de la educación sobre el medioambiente y la fauna salvaje. El proyecto se basa en la creación de un centro multifunción e integrador con la naturaleza, en el que una parte importante será como Centro de recuperación de la fauna salvaje y otra como centro de ecoturismo y educación ambiental. Dicho centro será un centro inclusivo con la gente con diversidad funcional, es decir el centro empleará a gente con diversidad funcional para que trabajen en el centro y a su vez se realizaran talleres, cursos, visitas etc… para la que la gente con diversidad funcional pueda sentirse más integrada con la naturaleza y de los beneficios que esta supone.'
         },
+
+    ],
+    collaborate: [
 
     ]
 }
