@@ -9,7 +9,7 @@ export default class Footer extends Component {
 
   render() {
     return (
-      <div >
+      <footer className='footer'>
         <Grid columns='equal'  >
           <Grid.Row className="common-footer">
             <Grid.Column largeScreen={16} mobile={16} tablet={16}>
@@ -23,7 +23,7 @@ export default class Footer extends Component {
             </Grid.Column>
           </Grid.Row>
         </Grid>
-      </div>
+      </footer>
     );
   }
 }

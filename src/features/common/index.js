@@ -11,3 +11,4 @@ export { default as Logo } from './Logo';
 export { default as TileDimmer } from './TileDimmer';
 export { default as PhoneButton } from './PhoneButton';
 export { default as WhatsAppButton } from './WhatsAppButton';
+export { default as InfoTile } from './InfoTile';

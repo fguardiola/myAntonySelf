@@ -13,7 +13,9 @@ export default class Logo extends Component {
       <div className="common-logo">
         <Link to='/'>
           <img className='logo-image' src={logo} alt="Logo" />
+          <p className='slogan'>" Que no te corten las alas! "</p>
         </Link>
+
       </div>
     );
   }
